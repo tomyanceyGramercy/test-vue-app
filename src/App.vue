@@ -1,5 +1,5 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  heyo
+  <HelloWorld />
 </template>
 
 <style scoped>
